@@ -1,12 +1,12 @@
 # Minimal Flask
 
-Code of a very small Flask application. Packaged using wheel and deployed to
-run on gunicorn.
+Code of a very small Flask application. Packaged using wheel and run in
+gunicorn.
 
 ## Local
 
 These set of commands build the wheel, install and run it from the current
-machine:
+machine's enviroment:
 
 ```bash
 $ ./pymk.py package
@@ -24,4 +24,5 @@ installation of dependencies in the target environment.
 ```bash
 $ ./package_venv.sh
 $ ./run_venv.sh
+$ ./clean_venv.sh
 ```
